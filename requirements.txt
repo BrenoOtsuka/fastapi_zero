@@ -1,5 +1,6 @@
 poetry==1.8.3
 fastapi[standard]
+pydantic
 pytest
 pytest-cov
 taskipy
