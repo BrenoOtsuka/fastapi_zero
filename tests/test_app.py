@@ -30,7 +30,7 @@ def test_create_user_with_username_already_exists(client, user):
     response = client.post(
         '/users/',
         json={
-            'username': 'Teste',
+            'username': user.username,
             'email': 'alice@example.com',
             'password': 'secret',
         },
@@ -44,7 +44,7 @@ def test_create_user_with_email_already_exists(client, user):
         '/users/',
         json={
             'username': 'alice',
-            'email': 'teste@test.com',
+            'email': user.email,
             'password': 'secret',
         },
     )
