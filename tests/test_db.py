@@ -1,5 +1,7 @@
-from sqlalchemy import select
 from dataclasses import asdict
+
+from sqlalchemy import select
+
 from fast_zero.models import User
 
 
@@ -16,5 +18,5 @@ def test_create_user(session, mock_db_time):
             'username': 'alice',
             'password': 'secret',
             'email': 'test@test',
-            'created_at': time
+            'created_at': time,
         }
