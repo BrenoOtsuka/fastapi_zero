@@ -4,6 +4,9 @@ pydantic
 pydantic-settings
 sqlalchemy
 alembic
+pwdlib[argon2]==0.2.1
+pyjwt==2.9.0
+tzdata
 pytest
 pytest-cov
 taskipy
