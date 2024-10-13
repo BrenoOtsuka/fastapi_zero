@@ -30,3 +30,8 @@ class UserPublic(BaseModel):
 
 class UserList(BaseModel):
     users: list[UserPublic]
+
+
+class FilterPage(BaseModel):
+    offset: int = 0
+    limit: int = 100
