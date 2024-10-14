@@ -9,5 +9,7 @@ pyjwt==2.9.0
 tzdata
 pytest
 pytest-cov
+factory-boy
+freezegun
 taskipy
 ruff
