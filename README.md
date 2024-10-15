@@ -1,0 +1,1 @@
+Todo esse curso foi escrito e produzido por Eduardo Mendes (@dunossauro).
